@@ -1514,6 +1514,13 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
+"@vue-stripe/vue-stripe@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@vue-stripe/vue-stripe/-/vue-stripe-4.1.1.tgz#37bd70e9d74a9a18566ee0c048a6aac17746a8e7"
+  integrity sha512-ME3U0kq/c8OuAYgYfcpqNUUPFlqvvVllI/TV813pwx+DzPtznTZNfQNT+3fbxPTJEV4r37yiqUPRo+3Kq2x3FQ==
+  dependencies:
+    vue-coerce-props "^1.0.0"
+
 "@vue/babel-helper-vue-jsx-merge-props@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@vue/babel-helper-vue-jsx-merge-props/-/babel-helper-vue-jsx-merge-props-1.0.0.tgz#048fe579958da408fb7a8b2a3ec050b50a661040"
@@ -8978,6 +8985,11 @@ vue-client-only@^2.0.0:
   resolved "https://registry.yarnpkg.com/vue-client-only/-/vue-client-only-2.0.0.tgz#ddad8d675ee02c761a14229f0e440e219de1da1c"
   integrity sha512-arhk1wtWAfLsJyxGMoEYhoBowM87/i6HLSG2LH/03Yog6i2d9JEN1peMP0Ceis+/n9DxdenGYZZTxbPPJyHciA==
 
+vue-coerce-props@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/vue-coerce-props/-/vue-coerce-props-1.0.0.tgz#af3d00aa419f0de79c2b020824c6c0387070d66e"
+  integrity sha512-4fdRMXO6FHzmE7H4soAph6QmPg3sL/RiGdd+axuxuU07f02LNMns0jMM88fmt1bvSbN+2Wyd8raho6p6nXUzag==
+
 vue-eslint-parser@^7.0.0:
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-7.1.0.tgz#9cdbcc823e656b087507a1911732b867ac101e83"
@@ -9036,11 +9048,6 @@ vue-server-renderer@^2.6.12:
     resolve "^1.2.0"
     serialize-javascript "^3.1.0"
     source-map "0.5.6"
-
-vue-stripe-checkout@^3.5.14-beta.0:
-  version "3.5.14-beta.0"
-  resolved "https://registry.yarnpkg.com/vue-stripe-checkout/-/vue-stripe-checkout-3.5.14-beta.0.tgz#cabddd8172f7630f03e8a3ea5edb56e2cfd7e213"
-  integrity sha512-NOnZZupLdhAstEWSE7P/OLT7vuoDT8EFSPbv5sA0bi8mHsyFRAhSaoVHQBNQj0vqLH8k8Yt2dPj+PSvVY+JffA==
 
 vue-style-loader@^4.1.0:
   version "4.1.2"
